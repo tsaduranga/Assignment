@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('bank/branches','')
+Route::resource('bank-branches','BankBranchesController');
